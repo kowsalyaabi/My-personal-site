@@ -1,0 +1,79 @@
+@media screen and (max-width:1400px){
+    .timeline-item::after{
+        width: 43px;
+    }
+}
+
+@media screen and (max-width:1200px){
+
+    .about .banner-profile img {
+        height: 370px;
+    }
+     
+    .timeline-dot {
+        left: 32px;
+    }
+
+    .timeline-item::before {
+        left: 45px;
+    }
+
+    .timeline-item::after {
+        left: 45px;
+    }
+}
+
+@media screen and (max-width:992px){
+    .about-div p{
+        font-size: 12px;
+    }
+
+    .timeline-dot,.timeline-item::before ,.timeline-item::after {
+        display: none;
+        margin-left: 0;
+    }
+    
+}
+
+@media screen and (max-width:768px){
+    .about .banner-profile img {
+        height: 310px;
+        box-shadow: rgba(255,255,255, 0.4) 0px 0px 0px 2px, rgba(255,255,255, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    }
+
+    .about .banner-profile
+    {
+        width: 100%;
+        text-align: center;
+        box-shadow: none;
+        margin-bottom: 30px;
+    }
+
+    .about-div .title{
+        text-align: center;
+    }
+
+    .social-icons{
+        justify-content: center;
+    }
+
+    .download-btn-div{
+        text-align: center;
+    }
+    .download-btn-div .download-btn{
+        
+        margin-left: 0;
+    }
+
+    .contact-left{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:565px){
+    
+}
+
+@media screen and (max-width:450px){
+    
+}
