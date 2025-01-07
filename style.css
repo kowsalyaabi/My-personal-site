@@ -249,7 +249,7 @@ nav ul li a:hover{
     padding: 0;
     margin: 0;
     display: flex;
-    justify-content: flex-start; /* Centering the content horizontally */
+    justify-content: center; /* Centering the content horizontally */
     flex-wrap: wrap;
 }
 
